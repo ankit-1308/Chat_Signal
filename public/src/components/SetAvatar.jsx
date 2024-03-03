@@ -26,6 +26,7 @@ export default function SetAvatar() {
       navigate("/login");
   }, []);
 
+  // this is important section
   const setProfilePicture = async () => {
     if (selectedAvatar === undefined) {
       toast.error("Please select an avatar", toastOptions);

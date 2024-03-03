@@ -8,6 +8,8 @@ import ChatContainer from "../components/ChatContainer";
 import Contacts from "../components/Contacts";
 import Welcome from "../components/Welcome";
 
+
+// this is chat section
 export default function Chat() {
   const navigate = useNavigate();
   const socket = useRef();
